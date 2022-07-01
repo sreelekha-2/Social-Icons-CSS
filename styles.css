@@ -1,0 +1,230 @@
+/* .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+} */
+
+.linkedin {
+  position: relative;
+}
+.main {
+  background-color: rgb(0, 119, 181);
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+}
+.linkedin1,
+.linkedin2,
+.linkedin3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+  display: none;
+}
+.linkedin1 {
+  left: 1%;
+  background-color: rgb(0, 119, 181, 0.8);
+}
+.linkedin2 {
+  left: 2%;
+  background-color: rgb(0, 119, 181, 0.6);
+}
+.linkedin3 {
+  left: 3%;
+  background-color: rgb(0, 119, 181, 0.4);
+}
+
+.linkedin:hover .linkedin1,
+.linkedin:hover .linkedin2,
+.linkedin:hover .linkedin3 {
+  display: block;
+}
+
+.whatsapp1,
+.whatsapp2,
+.whatsapp3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: none;
+  transform: rotate(-45deg) skew(20deg);
+}
+.whatsapp-main {
+  background-color: rgb(37, 211, 102);
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+}
+.whatsapp1 {
+  left: 1%;
+  background-color: rgb(37, 211, 102, 0.8);
+}
+.whatsapp2 {
+  left: 2%;
+  background-color: rgb(37, 211, 102, 0.6);
+}
+.whatsapp3 {
+  left: 3%;
+  background-color: rgb(37, 211, 102, 0.4);
+}
+
+.whatsapp {
+  position: relative;
+}
+.whatsapp:hover .whatsapp1,
+.whatsapp:hover .whatsapp2,
+.whatsapp:hover .whatsapp3 {
+  display: block;
+}
+
+/*facebook*/
+
+.facebook {
+  position: relative;
+}
+.facebook1,
+.facebook2,
+.facebook3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: none;
+  transform: rotate(-45deg) skew(20deg);
+}
+.facebook-main {
+  background-color: rgb(59, 89, 153);
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+}
+.icon {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.facebook1 {
+  left: 1%;
+  background-color: rgb(59, 89, 153, 0.8);
+}
+.facebook2 {
+  left: 2%;
+  background-color: rgb(59, 89, 153, 0.6);
+}
+.facebook3 {
+  left: 3%;
+  background-color: rgb(59, 89, 153, 0.4);
+}
+
+.facebook:hover .facebook1,
+.facebook:hover .facebook2,
+.facebook:hover .facebook3 {
+  display: block;
+}
+
+.twitter {
+  position: relative;
+}
+.twitter-main {
+  background-color: rgb(85, 172, 238);
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+}
+.twitter1,
+.twitter2,
+.twitter3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: none;
+  transform: rotate(-45deg) skew(20deg);
+}
+
+.twitter1 {
+  left: 1%;
+  background-color: rgb(85, 172, 238, 0.8);
+}
+
+.twitter2 {
+  left: 2%;
+  background-color: rgb(85, 172, 238, 0.6);
+}
+
+.twitter3 {
+  left: 3%;
+  background-color: rgb(85, 172, 238, 0.4);
+}
+.twitter:hover .twitter1,
+.twitter:hover .twitter2,
+.twitter:hover .twitter3 {
+  display: block;
+}
+
+.instagram {
+  position: relative;
+}
+
+.instagram-main {
+  background-image: linear-gradient(
+    to top,
+    #fed975,
+    #fa7f1e,
+    #d72976,
+    #9630be,
+    #4f5cd5
+  );
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg) skew(20deg);
+}
+.instagram1,
+.instagram2,
+.instagram3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: none;
+  transform: rotate(-45deg) skew(20deg);
+}
+
+.instagram1 {
+  left: 1%;
+  background-image: linear-gradient(
+    to top,
+    rgb(254, 217, 117, 0.8),
+    rgb(250, 127, 30, 0.8),
+    rgb(215, 41, 118, 0.8),
+    rgb(150, 48, 190, 0.8),
+    hsl(234, 61%, 57%, 0.8)
+  );
+}
+.instagram2 {
+  left: 2%;
+  background-image: linear-gradient(
+    to top,
+    rgb(254, 217, 117, 0.6),
+    rgb(250, 127, 30, 0.6),
+    rgb(215, 41, 118, 0.6),
+    rgb(150, 48, 190, 0.6),
+    hsl(234, 61%, 57%, 0.6)
+  );
+}
+.instagram3 {
+  left: 3%;
+  background-image: linear-gradient(
+    to top,
+    rgb(254, 217, 117, 0.4),
+    rgb(250, 127, 30, 0.4),
+    rgb(215, 41, 118, 0.4),
+    rgb(150, 48, 190, 0.4),
+    hsl(234, 61%, 57%, 0.4)
+  );
+}
+.instagram:hover .instagram1,
+.instagram:hover .instagram2,
+.instagram:hover .instagram3 {
+  display: block;
+}
