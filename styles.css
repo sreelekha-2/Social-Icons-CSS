@@ -9,6 +9,7 @@
 .linkedin {
   position: relative;
   margin-right: 50px;
+  transition: 0.5s all linear;
 }
 .main {
   display: inline-block;
@@ -28,15 +29,18 @@
   display: none;
 }
 .linkedin1 {
-  margin: 7px;
+  top: 10px;
+  left: -2px;
   background-color: rgb(0, 119, 181, 0.8);
 }
 .linkedin2 {
-  margin: 12px;
+  top: 20px;
+  left: 1px;
   background-color: rgb(0, 119, 181, 0.6);
 }
 .linkedin3 {
-  margin: 17px;
+  top: 28px;
+  left: 3px;
   background-color: rgb(0, 119, 181, 0.4);
 }
 
@@ -44,6 +48,18 @@
 .linkedin:hover .linkedin2,
 .linkedin:hover .linkedin3 {
   display: block;
+}
+
+.linkedin:hover {
+  transform: translate(0px, -20px);
+}
+
+/*whatsapp*/
+
+.whatsapp {
+  position: relative;
+  margin-right: 50px;
+  transition: 0.5s all linear;
 }
 
 .whatsapp1,
@@ -63,26 +79,28 @@
   transform: rotate(-45deg) skew(20deg);
 }
 .whatsapp1 {
-  margin: 7px;
+  top: 10px;
+  left: -2px;
   background-color: rgb(37, 211, 102, 0.8);
 }
 .whatsapp2 {
-  margin: 12px;
+  top: 20px;
+  left: 1px;
   background-color: rgb(37, 211, 102, 0.6);
 }
 .whatsapp3 {
-  margin: 17px;
+  top: 28px;
+  left: 3px;
   background-color: rgb(37, 211, 102, 0.4);
 }
 
-.whatsapp {
-  position: relative;
-  margin-right: 50px;
-}
 .whatsapp:hover .whatsapp1,
 .whatsapp:hover .whatsapp2,
 .whatsapp:hover .whatsapp3 {
   display: inline-block;
+}
+.whatsapp:hover {
+  transform: translate(0px, -20px);
 }
 
 /*facebook*/
@@ -90,6 +108,7 @@
 .facebook {
   position: relative;
   margin-right: 50px;
+  transition: 0.5s all linear;
 }
 .facebook1,
 .facebook2,
@@ -116,15 +135,18 @@
 }
 
 .facebook1 {
-  margin: 7px;
+  top: 10px;
+  left: -2px;
   background-color: rgb(59, 89, 153, 0.8);
 }
 .facebook2 {
-  margin: 12px;
+  top: 20px;
+  left: 1px;
   background-color: rgb(59, 89, 153, 0.6);
 }
 .facebook3 {
-  margin: 17px;
+  top: 28px;
+  left: 3px;
   background-color: rgb(59, 89, 153, 0.4);
 }
 
@@ -134,9 +156,16 @@
   display: block;
 }
 
+.facebook:hover {
+  transform: translate(0px, -20px);
+}
+
+/*twitter*/
+
 .twitter {
   position: relative;
   margin-right: 50px;
+  transition: 0.5s all linear;
 }
 .twitter-main {
   display: inline-block;
@@ -156,17 +185,20 @@
 }
 
 .twitter1 {
-  margin: 7px;
+  top: 10px;
+  left: -2px;
   background-color: rgb(85, 172, 238, 0.8);
 }
 
 .twitter2 {
-  margin: 12px;
+  top: 20px;
+  left: 1px;
   background-color: rgb(85, 172, 238, 0.6);
 }
 
 .twitter3 {
-  margin: 17px;
+  top: 28px;
+  left: 3px;
   background-color: rgb(85, 172, 238, 0.4);
 }
 .twitter:hover .twitter1,
@@ -175,9 +207,16 @@
   display: block;
 }
 
+.twitter:hover {
+  transform: translate(0px, -20px);
+}
+
+/*instagram*/
+
 .instagram {
   position: relative;
   margin-right: 50px;
+  transition: 0.5s all linear;
 }
 
 .instagram-main {
@@ -205,7 +244,8 @@
 }
 
 .instagram1 {
-  margin: 7px;
+  top: 10px;
+  left: -2px;
   background-image: linear-gradient(
     to top,
     rgb(254, 217, 117, 0.8),
@@ -216,7 +256,8 @@
   );
 }
 .instagram2 {
-  margin: 12px;
+  top: 20px;
+  left: 1px;
   background-image: linear-gradient(
     to top,
     rgb(254, 217, 117, 0.6),
@@ -227,7 +268,8 @@
   );
 }
 .instagram3 {
-  margin: 17px;
+  top: 28px;
+  left: 3px;
   background-image: linear-gradient(
     to top,
     rgb(254, 217, 117, 0.4),
@@ -241,4 +283,8 @@
 .instagram:hover .instagram2,
 .instagram:hover .instagram3 {
   display: block;
+}
+
+.instagram:hover {
+  transform: translate(0px, -20px);
 }
